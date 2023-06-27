@@ -22,14 +22,14 @@
   </button>
   <div class="collapse navbar-collapse nav-elemento" id="navbarNav">
     <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="work.html">Works</a>
+      <li class="nav-item active-p">
+        <a class="nav-link" href="galeria.html">Works</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
+        <a class="nav-link" href="about.html">About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
+        <a class="nav-link" href="contact.html">Contact</a>
       </li>
     </ul>
   </div>
@@ -44,25 +44,11 @@
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
               <div class="container work-unit">
-                    <div class="container media-holder">
-                        <video class="img-fluid p-img" autoplay muted loop>
-                          <source src="img/proj-1.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                        </video>
-                    </div>
-                    
-                    <div class="container description">
-                      <h2 class="title-2">2D Animation</h2>
-                        <a href="#"><button onclick="myFunction()" class="btn btn-work">Explore</button></a>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="container work-unit">
                     <div class="container media-holder">
                         <video class="img-fluid p-img" autoplay muted loop>
                           <source src="img/mg-1.mp4" type="video/mp4">
@@ -79,6 +65,21 @@
               <div class="container work-unit">
                     <div class="container media-holder">
                         <video class="img-fluid p-img" autoplay muted loop>
+                          <source src="img/proj-1.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    
+                    <div class="container description">
+                      <h2 class="title-2">2D Animation</h2>
+                        <a href="#"><button onclick="myFunction()" class="btn btn-work">Explore</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container work-unit">
+                    <div class="container media-holder">
+                        <video class="img-fluid p-img" autoplay muted loop>
                           <source src="img/proj-3.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                         </video>
@@ -86,6 +87,20 @@
                     <div class="container description">
                       <h2 class="title-2">3D animation</h2>
                         <a href="#"><button onclick="myFunction3()" class="btn btn-work">Explore</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container work-unit">
+                    <div class="container media-holder">
+                        <video class="img-fluid p-img" autoplay muted loop>
+                          <source src="img/ui-demo.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="container description">
+                      <h2 class="title-2">UX/UI web design</h2>
+                        <a href="#"><button onclick="myFunction4()" class="btn btn-work">Explore</button></a>
                     </div>
                 </div>
             </div>
@@ -295,7 +310,7 @@
       </div>
       <div class="row">
                 <article class="col-3 text-center">
-                  <a data-fancybox="gallery" href="img/3d-1.mp4">
+                  <a data-fancybox="3d" href="img/3d-1.mp4">
                     <video class="img-fluid img2" autoplay muted loop>
                         <source src="img/3d-1.mp4" type="video/mp4">
                         Your browser does not support the video tag.
@@ -303,7 +318,7 @@
                   </a>
                 </article>
                 <article class="col-3 text-center">
-                  <a data-fancybox="gallery" href="img/3d-2.mp4">
+                  <a data-fancybox="3d" href="img/3d-2.mp4">
                     <video class="img-fluid img2" autoplay muted loop>
                         <source src="img/3d-2.mp4" type="video/mp4">
                         Your browser does not support the video tag.
@@ -311,7 +326,7 @@
                   </a>
                 </article>
                 <article class="col-3 text-center">
-                  <a data-fancybox="gallery" href="img/3d-4.mp4">
+                  <a data-fancybox="3d" href="img/3d-4.mp4">
                     <video class="img-fluid img2" autoplay muted loop>
                         <source src="img/3d-4.mp4" type="video/mp4">
                         Your browser does not support the video tag.
@@ -319,12 +334,72 @@
                   </a>
                 </article>
                 <article class="col-3 text-center">
-                  <a data-fancybox="gallery" href="img/3d-5.png"><img src="img/3d-5.png" alt="Yare" class="img-fluid img2"></a>
+                  <a data-fancybox="3d" href="img/3d-5.png"><img src="img/3d-5.png" alt="Yare" class="img-fluid img2"></a>
                 </article>
 
       </div>
 
     </section>
+
+  <section id="uxui" class="animate__animated hidden">
+
+     <i onclick="myFunction4()" class="fa-solid fa-arrow-left icon-btn"></i>
+
+      <div class="container proj-cont">
+        <div class="row">
+          <article class="col-md-6 col-xs-12">
+            <div class="container-fluid">
+              <h1 class="proj-title">UX/UI Web design</h1>
+              <p class="project-description">I have experience designing and coding simple web pages, this web portfolio was done by me! I manage html, bootstrap and framework7. I also produce media content such as infographics.</p><br>
+              <p class="project-description">Apps I frequently use:</p>
+              <ul>
+                <li><p class="project-description">Figma</p></li>
+                <li><p class="project-description">Sublime text</p></li>
+                <li><p class="project-description">Adobe XD</p></li>
+                <li><p class="project-description">Wordpress</p></li>
+
+              </ul>
+            </div>
+          </article>
+
+          <article class="col-md-6 col-xs-12 icons-container">
+            <div class="container p-videoholder">
+              <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="700" height="350" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FdoQa6eB9OsB54evnz18ls2%2FEcoride-app%3Ftype%3Ddesign%26node-id%3D9-47%26scaling%3Dcontain%26page-id%3D0%253A1%26starting-point-node-id%3D9%253A47%26mode%3Ddesign" allowfullscreen></iframe>
+            </div>
+            <ul class="icons-proj">
+              <li>
+                  <img src="img/figma.png" alt="logo1" class="icon-single">
+              </li>
+              <li>
+                  <img src="img/sublime.png" alt="logo1" class="icon-single">
+              </li>
+              <li>
+                  <img src="img/xd.png" alt="logo1" class="icon-single">
+              </li>
+              <li>
+                  <img src="img/dw.png" alt="logo1" class="icon-single">
+              </li>
+
+
+            </ul>
+          </article>
+      </div>
+      <div class="row">
+                <article class="col-4 text-center">
+                  <a data-fancybox="gallery" href="img/3d-1.mp4">
+                    <a data-fancybox="ux" href="img/ux-1.png"><img src="img/ux-tn.png" alt="Yare" class="img-fluid img2"></a>
+                  </a>
+                </article>
+                <article class="col-4 text-center">
+                  <a data-fancybox="ux" href="img/cancer.png"><img src="img/cancer-tn.png" alt="Yare" class="img-fluid img2"></a>
+                </article>
+                <article class="col-4 text-center">
+                  <a data-fancybox="ux" href="img/info-1.png"><img src="img/info-tn.png" alt="Yare" class="img-fluid img2"></a>
+                </article>
+
+      </div>
+
+  </section>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>

@@ -303,3 +303,149 @@ h1{
     height: 100vh;
     width: 100%;	
 }
+
+#uxui{
+	background-color: #1c1c1cf7;
+    padding: 30px;
+    position: absolute;
+    z-index: 0;
+    top: 104px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;	
+}
+
+.ux-img{
+	max-height: 236px;
+	overflow-y: scroll;
+}
+.ui-img{
+	max-width: 420px;
+}
+
+.contact-1{
+	background-image: url(../img/bgmain.jpg);
+	background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 16% 0;
+}
+
+.contact-2{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #10162659;
+}
+.contact-row{
+	padding: 30px 0;
+    display: flex;
+    height: 75vh;
+}
+.i-contact{
+    font-size: 20px;
+    margin-right: 10px;
+}
+.btn-contact {
+	font-family: 'Manrope', sans-serif;
+    padding: 14px 15px;
+    border: solid 2px var(--dorado);
+    color: var(--dorado);
+    font-size: 15px;
+    margin: 10px 0px;
+}
+
+.contact-title{
+	font-family: 'Manrope', sans-serif;
+	font-size: 26px;
+	font-weight: 700;
+	margin: 5px 0px;
+}
+.contact-p{
+	font-family: 'Manrope', sans-serif;
+	color: var(--dorado);
+	font-size: 15px;
+	margin: 20px 0px;
+}
+
+.btn-contact {
+	font-family: 'Manrope', sans-serif;
+    padding: 20px;
+    border: solid 2px var(--dorado);
+    color: var(--dorado);
+    font-size: 20px;
+    font-weight: 100;
+    margin: 10px;
+}
+
+.btn-contact:hover{
+	background-color: var(--dorado);
+	color: #fff;
+	transition: ease-in-out 0.8s;
+}
+
+.btn-contact2 {
+	font-family: 'Manrope', sans-serif;
+    padding: 20px;
+    border: solid 2px #fff;
+    color: #000;
+    font-size: 20px;
+    font-weight: 100;
+    margin: 10px;
+    background-color: var(--dorado);
+}
+
+.btn-contact2:hover{
+	font-family: 'Manrope', sans-serif;
+    padding: 20px;
+    border: solid 2px var(--dorado);
+    color: var(--dorado);
+    font-size: 20px;
+    font-weight: 100;
+    margin: 10px;
+    background-color: transparent;
+    transition: ease-in-out 0.8s;
+}
+
+.active-p{
+	text-decoration: underline;
+	text-decoration-thickness: 2px;
+}
+
+.about-title{
+	font-family: 'Manrope', sans-serif;
+	font-size: 26px;
+	margin: 5px 0px;
+	color: var(--dorado);
+}
+
+.about-p{
+	font-size: 13px;
+	font-family: Manrope;
+	color: var(--dorado);
+	margin: auto;
+}
+.about-cont{
+	width: 90%;
+}
+
+.about-1{
+ 	background-color: transparent;
+    padding: 16% 0;
+}
+.container-about{
+	background-color: #0d1322cf;
+	padding: 20px 30px;
+	margin: 20px;
+}
+#about {
+	background-image: url(../img/works.png);
+	background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
